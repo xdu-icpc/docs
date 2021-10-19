@@ -1,0 +1,51 @@
+1.
+调试，代码相关问题
+C++
+如何枚举：递归 二进制 子集 超集
+next_permutation
+
+2.
+排序与复杂度分析
+n2
+归并
+sort
+
+3.
+动态规划
+
+4.
+栈 & dfs
+队列 & bfs & 双端队列
+多源
+
+5.
+建图
+dijkstra 优先队列
+floyd
+DAG topolyn
+
+6.
+倍增 lca rmq fast_pow
+其他进制
+
+----
+
+组合数学 & 容斥原理
+
+数论
+
+线段数 平衡树
+
+字符串
+
+hash
+	str
+	tree
+	graph
+	dfa
+
+转移优化
+	矩阵乘法
+	线段树合并
+	启发式合并
+	dsu on tree

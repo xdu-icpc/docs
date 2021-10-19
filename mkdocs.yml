@@ -1,0 +1,10 @@
+site_url: https://acm.xidian.edu.cn/beginner
+site_name: ACM 入门教程
+nav:
+  - Home: index.md
+  - 比赛一览: contests.md
+  - 零基础: freshmen.md
+  - About: about.md
+  - 资料: assets.md
+  - Q&A: faq.md
+
