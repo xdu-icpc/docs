@@ -2,6 +2,8 @@
 
 G542: <img src="assets/base.jpg" width="20%">
 
+将转移至 G351
+
 ## 相关链接
 
 校ACM OJ: [http://acm.xidian.edu.cn](http://acm.xidian.edu.cn)  

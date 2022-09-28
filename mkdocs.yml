@@ -7,6 +7,11 @@ nav:
   - 相关比赛: #contests.md
     - 总览: contests.md
     - 校赛: campus.md
+    - ICPC: contests/ICPC.md
+    - CSP: contests/CSP.md
+    - CCSP: contests/CCSP.md
+    - GPLT-CCCC: contests/GPLT-CCCC.md
+    - CCPC: contests/CCPC.md
   #- rating: rating.md
 theme:
   name: readthedocs
