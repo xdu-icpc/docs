@@ -10,6 +10,7 @@
 |:-:|:--|
 |近年中国通知网站|https://icpc.pku.edu.cn|
 |ICPC 国际官网|https://icpc.global|
+|排行榜合集（非官方）|https://board.xcpcio.com|
 
 ## 赛制
 3 人一机，5 小时解决 10-14 题，按第一关键字通过题目数量，第二关键字罚时计算排名。  
