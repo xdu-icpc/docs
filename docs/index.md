@@ -1,6 +1,6 @@
 # XDU ACM 文档
 
-G542: <img src="assets/base.jpg" width="20%">
+G542: <img src="https://acm.xidian.edu.cn/assets/base.jpg" width="20%">
 
 将转移至 G351
 

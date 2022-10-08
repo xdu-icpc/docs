@@ -1,13 +1,7 @@
 # 资料
 
-## 新生宣讲
+[新生宣讲](https://acm.xidian.edu.cn/assets/第一讲——ACM-ICPC竞赛宣讲.pptx)
 
-王老师的 [2021年11月24日宣讲](./assets/2021新生赛宣讲.pdf)  
-帆神的 [2020年11月26日宣讲](./assets/2020年11月26日宣讲.pdf) [ppt版](./assets/2020年11月26日宣讲.pptx)
+[程序调试](https://acm.xidian.edu.cn/assets/程序调试.pdf)
 
-## 程序调试
-xry111的 [程序调试](./assets/程序调试.pdf)
-
-## 复杂度理论
-
-[复杂度理论初步](./assets/comlexity-2021.pdf)
+[复杂度理论初步](https://acm.xidian.edu.cn/assets/comlexity-2021.pdf)
