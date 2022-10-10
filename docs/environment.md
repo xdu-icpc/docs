@@ -14,7 +14,7 @@
 
 ### Linux
 
-g++，按照后一般无需额外配置
+g++，安装后一般无需额外配置
 
 ### Windows
 
@@ -22,20 +22,20 @@ g++，按照后一般无需额外配置
 
 第一步，下载按照下列之一，建议装64位的，建议选 TDM-gcc，根据经验编译的会快一点，也比较好装。
 
-1. [TDM-gcc](https://jmeubank.github.io/tdm-gcc/) 
+1. [TDM-gcc](https://jmeubank.github.io/tdm-gcc/) 也可以下载群文件工具目录中有 `tdm-gcc-10.3.0-2.exe`
 2. [Mingw64](https://www.mingw-w64.org/downloads/)
 3. [Mingw](https://sourceforge.net/projects/mingw/)
 
 第二步，把 g++.exe 所在路径加入环境变量里
 
 找到安装的路径，应有 bin/g++.exe 把 bin 目录加入 Windows 的环境变量中，
-例如 `C://TDM-GCC/9.2.0/bin/g++.exe`, 则应加入 `C://TDM-GCC/9.2.0/bin`。
+例如 `C:\TDM-GCC-64\bin\g++.exe`, 则应加入 `C:\TDM-GCC-64\bin`。
 
-添加环境变量这里不详细讲了，可以通过百度等所搜引擎学习。
+添加环境变量这里不详细讲了，win10 或以上可以参考[链接](https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html)，win7或以下可以参考[链接](https://jingyan.baidu.com/article/b24f6c82cba6dc86bfe5da9f.html)， 也可以通过百度等所搜引擎学习。
 
 ## 终端
 
-如果完成了上述步骤，打开终端输入 `g++ --version` 应该能看到版本号
+如果完成了上述步骤，打开终端输入 `g++ --version` 应该能看到版本号，`gdb --version` 也可以
 
 ### Linux
 
@@ -83,7 +83,7 @@ g++ $1.cpp -o $1 -g -O0 -Wall -DLOCAL -fsanitize=undefined -fsanitize=address &&
 创建 rc.bat
 
 ```bat
-g++ %%1.cpp -o %%1 -g -O0 -Wall -DLOCAL && echo compile_successfully && %%1.exe
+g++ %1.cpp -o %1 -g -O0 -Wall -DLOCAL && echo compile_successfully && %1.exe
 ```
 
-则可以 `./rc A` 编译运行 A.cpp
+则可以 `rc A` 编译运行 A.cpp

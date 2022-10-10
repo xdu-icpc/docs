@@ -1,5 +1,7 @@
 # 如何 debug
 
+群里的提问，应该是针对某条语句的提问，或是针对本文的提问，而不是一大段代码问哪里错了。
+
 这里只讲对于 C++ 单文件程序的 debug。这里假设已经有了能使程序运行结果错误的输入，而不仅是在OJ上提交没有通过。
 环境见配置环境。
 
@@ -64,6 +66,7 @@ void debug_out(Head H,Tail... T){
 #else
 #define dbg(...) 0
 #define debug(...) 0
+#endif
 ```
 
 在本地编译选项里加入 `-DLOCAL`，提交时可以不用注释调试输出，用法
@@ -75,8 +78,11 @@ dbg(n,m); //输出n,m，例如当前行为12,n=3,m=4则会输出: L12 [n,m]: 3 4
 如果要用循环输出很多调试信息，建议将整个循环进行条件编译，例如
 
 ```cpp
+//输出 a[1..n]
+for(int i=1;i<=n;++i) debug(a[i]<<" \n"[i==n]);
+
 #ifdef LOCAL
-for(int i=1;i<=n;++i) debug(a[i]<<" \n"[i==n]); //输出 a[1..n]
+for(int i=1;i<=n;++i) std::cerr<<a[i]<<" \n"[i==n];
 #endif
 ```
 
