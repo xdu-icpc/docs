@@ -26,6 +26,8 @@
 不要选别的乱七八糟的东西。
 - 点击右上角的齿轮按钮，然后点击 `Extra Compiler Flags` 按钮，
 输入 `-Wall -Wextra -Werror=vla -g -fsanitize=address,undefined -fno-sanitize-recover`，确认。
+    - 如果你本地的编译器支持这些选项，就不需要用在线工具了，
+      本地编译时使用这些选项即可。
 然后点击 `Done` 按钮。
 - 把你的代码粘贴到上半部分的编辑器中。
 - 在下半部分，点击 `input`，在 `Standard Input` 那里选择 `Text`，
