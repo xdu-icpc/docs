@@ -18,7 +18,7 @@
 本小节适用于所有“为什么我的程序崩溃/输出不符合预期”类型的问题。
 
 首先删掉你程序里所有的非 ASCII 字符。然后打开
-[www.onlinegdb.com][https://www.onlinegdb.com]，
+[www.onlinegdb.com](https://www.onlinegdb.com)，
 按下列步骤操作：
 
 - 如果你看左边栏不顺眼，点击形如 `<` 的按钮把它关掉。
@@ -40,7 +40,7 @@
 - 看一下 `stdout` 里面的东西和你的预期，以及你本地的输出是否相同。
 如果不同的话，问人的时候记得说明。
 
-超过 5 行的代码必须用 [paste.mozilla.org][https://paste.mozilla.org]
+超过 5 行的代码必须用 [paste.mozilla.org](https://paste.mozilla.org)
 或者类似的在线工具粘贴，然后把代码链接发到群里。
 不要恶意压行 (按 Linux 内核代码规范使用 `clang-format` 格式化后超过 5 行
 就算超过 5 行)。
