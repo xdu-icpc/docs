@@ -22,6 +22,8 @@ nav:
     - CCSP: contests/CCSP.md
     - GPLT-CCCC: contests/GPLT-CCCC.md
     - CCPC: contests/CCPC.md
+  - 比赛纪律:
+    - 网络赛规则: discipline/rule-online.md
   #- rating: rating.md
 theme:
   name: readthedocs
